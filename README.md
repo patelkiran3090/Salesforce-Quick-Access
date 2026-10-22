@@ -1,8 +1,8 @@
-# SF Quick Access
+# SALESFORCE Quick Access
 
 A Chrome extension with everyday Salesforce admin and developer tools, one click away. It works through the Salesforce session you are already signed in with: there is no account to create, no server, and nothing is sent to the developer.
 
-> **Unofficial.** SF Quick Access is an independent product. It is not affiliated with, endorsed by, or sponsored by Salesforce. Salesforce is a trademark of Salesforce, Inc.
+> **Unofficial.** Salesforce Quick Access is an independent product. It is not affiliated with, endorsed by, or sponsored by Salesforce. Salesforce is a trademark of Salesforce, Inc.
 
 [Install from the Chrome Web Store](https://chromewebstore.google.com/detail/sf-quick-access/anjccglcmoocjjaeehdndfcgeajhkbhk) · [Privacy policy](PRIVACY_POLICY.md)
 
