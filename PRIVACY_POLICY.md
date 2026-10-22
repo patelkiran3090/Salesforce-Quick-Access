@@ -1,6 +1,6 @@
 <!-- Fill in the three bracketed placeholders before publishing: [YOUR NAME OR COMPANY], [YOUR EMAIL], [EFFECTIVE DATE]. -->
 
-# SF Quick Access: Privacy Policy
+# SALESFORCE Quick Access: Privacy Policy
 
 **Effective date:** 9th Oct, 2026   
 **Publisher:** Kiran Patel
@@ -8,7 +8,7 @@
 
 ## In short
 
-- SF Quick Access has no servers of its own. The publisher does not receive, collect, store, share or sell any of your data.
+- Salesforce Quick Access has no servers of its own. The publisher does not receive, collect, store, share or sell any of your data.
 - The extension works only with the Salesforce orgs you are logged into. Its requests go to those orgs and nowhere else.
 - Your settings are stored in your browser, on your device.
 - There is no analytics, advertising, tracking or telemetry.
@@ -76,7 +76,7 @@ The extension requests no access to any site outside Salesforce.
 
 ## Limited Use disclosure
 
-The use of information received from your browser and from your Salesforce orgs by SF Quick Access adheres to the Chrome Web Store User Data Policy, including the Limited Use requirements. The extension uses this information only to provide the user-facing features described on its Chrome Web Store page. It does not transfer the information to anyone except as needed to provide those features (requests to your own Salesforce org) or to comply with the law. It does not use the information for advertising, and no person at the publisher reads it.
+The use of information received from your browser and from your Salesforce orgs by Salesforce Quick Access adheres to the Chrome Web Store User Data Policy, including the Limited Use requirements. The extension uses this information only to provide the user-facing features described on its Chrome Web Store page. It does not transfer the information to anyone except as needed to provide those features (requests to your own Salesforce org) or to comply with the law. It does not use the information for advertising, and no person at the publisher reads it.
 
 ## Security
 
@@ -88,11 +88,11 @@ Uninstalling the extension removes everything it has stored on your device. You 
 
 ## Children
 
-SF Quick Access is a tool for Salesforce developers and administrators and is not directed to children.
+Salesforce Quick Access is a tool for Salesforce developers and administrators and is not directed to children.
 
 ## No affiliation with Salesforce
 
-SF Quick Access is not affiliated with, endorsed by, or sponsored by Salesforce, Inc. Salesforce is a trademark of Salesforce, Inc. Your use of Salesforce is governed by your own agreement with Salesforce.
+Salesforce Quick Access is not affiliated with, endorsed by, or sponsored by Salesforce, Inc. Salesforce is a trademark of Salesforce, Inc. Your use of Salesforce is governed by your own agreement with Salesforce.
 
 ## Changes to this policy
 
