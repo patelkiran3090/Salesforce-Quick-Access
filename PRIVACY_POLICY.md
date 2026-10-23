@@ -1,10 +1,8 @@
-<!-- Fill in the three bracketed placeholders before publishing: [YOUR NAME OR COMPANY], [YOUR EMAIL], [EFFECTIVE DATE]. -->
+# Salesforce Quick Access: Privacy Policy
 
-# SALESFORCE Quick Access: Privacy Policy
-
-**Effective date:** 9th Oct, 2026   
-**Publisher:** Kiran Patel
-**Contact:** patelkiran3090@gmail.com
+**Effective date:** October 23, 2026
+**Publisher:** Kirankumar Patel
+**Contact:** open an issue at https://github.com/patelkiran3090/Salesforce-Quick-Access/issues
 
 ## In short
 
@@ -19,7 +17,7 @@
 | --- | --- | --- |
 | Your Salesforce session cookie (`sid`). This is authentication information. | To make requests to your Salesforce org as you, and, for Quick Deploy, to see which orgs you are logged into. | Used only in requests to the org it belongs to. It is never written to storage, never displayed, and never sent to the publisher or anyone else. |
 | The web addresses of your open Salesforce tabs. | To know which org and record you are working in, and to open and reload tabs. | Not stored, apart from the org hostnames described below. Tabs that are not on a Salesforce domain are ignored. |
-| Data from your Salesforce org that you ask to see: records and their fields, users, metadata (such as Apex classes, flows and profiles), and debug logs. | To show it to you, and to carry out the actions you ask for. | Shown in the extension on your device. This data can include personal information about your customers or colleagues. Changes you ask for (editing a field, changing owners, granting access, deploying) are sent to your Salesforce org. |
+| Data from your Salesforce org that you ask to see: records and their fields, users, metadata (such as Apex classes, flows and profiles), debug logs, the results of queries you run in the Data export tool, and which components changed recently and who last changed them (the names and dates Salesforce keeps on each component), and which permissions each profile and permission set you compare grants (the settings Salesforce stores on them). | To show it to you, and to carry out the actions you ask for. | Shown in the extension on your device. This data can include personal information about your customers or colleagues. Changes you ask for (editing a field, changing owners, granting access, deploying) are sent to your Salesforce org. |
 | Text you paste into the JSON beautifier or string converter. | To format or convert it. | Processed on your device. Not stored and not sent anywhere. |
 | Your clipboard. | Only when you click Paste from Clipboard (read) or a Copy button (write). | Used for that action only. |
 
@@ -27,7 +25,7 @@
 
 - **To Salesforce only.** Requests go over HTTPS to the Salesforce org or orgs you are logged into.
 - **Quick Deploy.** It reads components from the org you are in and writes them to the target org you choose. Both are your orgs, and the data goes directly from your browser to Salesforce. It does not pass through any server of ours.
-- **Files you download.** The backup file from Change Owner and any raw debug log you download are saved to your computer by your browser.
+- **Files you download.** The backup file from Change Owner, any raw debug log you download, and any query results you export as CSV are saved to your computer by your browser.
 - **Nothing is sent to the publisher or to any third party.**
 
 ## What is stored on your device
@@ -38,6 +36,8 @@
 - the items you pinned, for each org
 - your Clear Cache preferences
 - each org's company name and whether it is a sandbox
+- the last 20 queries you ran in Data export, for each org: the query text, the object, which API it ran on, and when. They can contain values or record IDs that you typed. They are not sent anywhere, and the Clear all button in the Data export history menu removes them
+- your works in My work, for each org: the name you gave each (for example a story number), the notes you wrote, any steps you wrote to do before and after deploying it, the type and name of each component you added (for example an Apex class and its name), the small identifier Quick Deploy needs to find that component again, who changed it and when (as shown in Recent changes), and a short history of where each work was deployed. No record data and no metadata contents are kept. Works are not sent anywhere. Deleting a work in My work removes it from this list
 - a list of Salesforce org hostnames the extension has seen, with a label and a last-seen time, so it can show that a session has expired
 
 **Session storage** is held in the browser's memory and cleared when you close the browser:
@@ -58,7 +58,7 @@ When you turn Clear Cache on for a tab, or click Clear now, the extension remove
 | --- | --- |
 | `cookies` | Reading the Salesforce session cookie, and listing the orgs you are logged into |
 | `tabs` | Finding your Salesforce tabs, opening and reloading tabs, and keeping one pop-out window per org |
-| `storage` | Saving the settings described above |
+| `storage` | Saving the settings, saved Data export queries and My work lists described above |
 | `clipboardRead`, `clipboardWrite` | The Paste and Copy buttons |
 | `browsingData`, `declarativeNetRequestWithHostAccess` | Clear Cache |
 | Access to Salesforce domains | Calling your org's APIs, and showing the Inspect tab on record pages |
@@ -100,4 +100,4 @@ If the extension changes what data it handles, this policy and its effective dat
 
 ## Contact
 
-Questions about this policy: patelkiran3090@gmail.com
+Questions about this policy: open an issue at https://github.com/patelkiran3090/Salesforce-Quick-Access/issues
